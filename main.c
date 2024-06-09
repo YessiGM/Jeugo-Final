@@ -41,7 +41,7 @@ int main(void)
 
     // Variables del programa
     Image image = LoadImage("logo2.png");
-    Font font = LoadFont("C:\\Users\\maxye\\Desktop\\Programacion-estructurada\\Juego\\fuente\\The_Last_Shuriken.otf");
+    Font font = LoadFont("The_Last_Shuriken.otf");
 
     // Escalar la imagen al tamaño de la ventana
     const float scaleFactor = 0.5f;
@@ -156,22 +156,22 @@ int main(void)
 
             InitWindow(anchoPantalla, altoPantalla, "Juego");
             // Cargar texturas de las plataformas
-            Texture2D baseTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_base.png");
-            Texture2D esquinaIzqTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_esquinaIZQ.png");
-            Texture2D esquinaDerTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_esquinaDER.png");
-            Texture2D centroBaseTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_centrobase.png");
-            Texture2D centroIzqTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_centroIZQ.png");
-            Texture2D centroDerTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_centroDER.png");
-            Texture2D sueloBaseTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_suelobase.png");
-            Texture2D sueloIzqTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_sueloIZQ.png");
-            Texture2D sueloDerTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p_sueloDER.png");
-            Texture2D baseTexture2 = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p2_base.png");
-            Texture2D esquinaIzqTexture2 = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p2_esquinaIZQ.png");
-            Texture2D esquinaDerTexture2 = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p2_esquinaDER.png");
-            Texture2D baseTexture3 = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p3_base.png");
-            Texture2D baseTexture4 = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p4_base.png");
-            Texture2D centroTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p4_centro.png");
-            Texture2D abajoTexture = LoadTexture("C:\\Users\\maxye\\Downloads\\Juego-master1\\Plataformas\\Sprite-p4_abajo.png");
+            Texture2D baseTexture = LoadTexture("Sprite-p_base.png");
+            Texture2D esquinaIzqTexture = LoadTexture("Sprite-p_esquinaIZQ.png");
+            Texture2D esquinaDerTexture = LoadTexture("Sprite-p_esquinaDER.png");
+            Texture2D centroBaseTexture = LoadTexture("Sprite-p_centrobase.png");
+            Texture2D centroIzqTexture = LoadTexture("Sprite-p_centroIZQ.png");
+            Texture2D centroDerTexture = LoadTexture("Sprite-p_centroDER.png");
+            Texture2D sueloBaseTexture = LoadTexture("Sprite-p_suelobase.png");
+            Texture2D sueloIzqTexture = LoadTexture("Sprite-p_sueloIZQ.png");
+            Texture2D sueloDerTexture = LoadTexture("Sprite-p_sueloDER.png");
+            Texture2D baseTexture2 = LoadTexture("Sprite-p2_base.png");
+            Texture2D esquinaIzqTexture2 = LoadTexture("Sprite-p2_esquinaIZQ.png");
+            Texture2D esquinaDerTexture2 = LoadTexture("Sprite-p2_esquinaDER.png");
+            Texture2D baseTexture3 = LoadTexture("Sprite-p3_base.png");
+            Texture2D baseTexture4 = LoadTexture("Sprite-p4_base.png");
+            Texture2D centroTexture = LoadTexture("Sprite-p4_centro.png");
+            Texture2D abajoTexture = LoadTexture("Sprite-p4_abajo.png");
 
             Jugador jugador = {0};
             jugador.posicion = (Vector2){400, 280};
