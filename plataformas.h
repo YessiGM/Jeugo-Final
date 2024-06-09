@@ -22,7 +22,7 @@ void DrawPlatform(float posX, float posY, int platformType, char platformPart,
 {
     Rectangle destRect = {posX, posY, 0, 0}; // Rectángulo destino (posición x, posición y, ancho, alto)
     Texture2D texture;                       // Textura a dibujar
-    float scale = 1.5f;                      // Escala para aumentar el tamaño de la textura
+    float scale = 1.0f;                      // Escala para aumentar el tamaño de la textura
 
     // Seleccionar la textura correspondiente según el tipo de plataforma y la parte deseada
     switch (platformType)
